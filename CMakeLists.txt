@@ -53,7 +53,7 @@ set(SOURCE_FILES
     syscalls/syscalls.c
     main.c)
 
-file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_PATH})
+# file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/.gdbinit DESTINATION ${EXECUTABLE_OUTPUT_PATH})
 
 add_executable(${TARGET_NAME} ${SOURCE_FILES})
 
